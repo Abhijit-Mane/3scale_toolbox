@@ -12,7 +12,7 @@ include:
 
 before_install:
   - sudo apt-get update
-  - ./ci/setup_${TRAVIS_OS_NAME}_environment.sh
+  - ./setup_${TRAVIS_OS_NAME}_environment.sh
 
 script:
   - bundle exec rake spec:unit
