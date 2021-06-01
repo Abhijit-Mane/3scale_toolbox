@@ -3,12 +3,12 @@
 set -ev
 
 # install needed packages
-apt-get -y install build-essential gem make cmake ruby-dev
-#apt-get -y install zlib1g zlib1g-dev
+sudo apt-get -y install build-essential gem make cmake ruby-dev
+#sudo apt-get -y install zlib1g zlib1g-dev
 
 # setup bundler
-gem update --system
-gem uninstall bundler
-rm /usr/local/bin/bundle  || true
-rm /usr/local/bin/bundler || true
-gem install bundler
+sudo gem update --system
+sudo gem uninstall bundler
+sudo rm /usr/local/bin/bundle  || true
+sudo rm /usr/local/bin/bundler || true
+sudo gem install bundler
