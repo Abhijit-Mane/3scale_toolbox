@@ -1,15 +1,7 @@
 language: ruby
-sudo: false
 dist: bionic
-
-jobs:
-  include:
-  - build: ppc64le
-    os: linux
-    arch: ppc64le
-
-  allow_failures:
-  - build: ppc64le
+arch: ppc64le
+os: linux
 
 before_install:
   - sudo apt-get update
