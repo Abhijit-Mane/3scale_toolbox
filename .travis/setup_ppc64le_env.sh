@@ -3,7 +3,7 @@
 set -ev
 
 # install needed packages
-sudo apt-get -y install build-essential
+sudo apt-get -y install build-essential ruby-dev
 
 # setup bundler
 #sudo gem update --system
