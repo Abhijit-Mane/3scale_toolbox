@@ -9,7 +9,8 @@ sudo apt-get -y install build-essential gem make cmake ruby-dev
 # setup bundler
 #sudo gem update --system
 
-sudo gem install bundler
+#sudo gem install bundler
+sudo gem install bundler -v '2.1.4'
 
 echo "Ruby, RubyGems version"
 sudo ruby --version 
