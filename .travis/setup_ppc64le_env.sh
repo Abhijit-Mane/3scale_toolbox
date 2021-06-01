@@ -14,3 +14,6 @@ sudo gem install bundler
 echo "Ruby, RubyGems version"
 sudo ruby --version 
 sudo gem --version
+
+echo "Bundler declared in Gemfile.lock"
+sudo grep -A 1 "BUNDLED WITH" Gemfile.lock
