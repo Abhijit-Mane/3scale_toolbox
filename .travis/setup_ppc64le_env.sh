@@ -10,6 +10,9 @@ sudo apt-get -y install build-essential gem make cmake ruby-dev
 #sudo gem update --system
 
 sudo gem install bundler
+
+export PATH=$PATH:/usr/local/bin
+
 echo "Ruby, RubyGems, bundler version"
 sudo ruby --version 
 sudo gem --version
