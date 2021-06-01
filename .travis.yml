@@ -5,7 +5,7 @@ os: linux
 
 before_install:
   - sudo apt-get update
-  - "./.travis/setup_${TRAVIS_OS_NAME}_env.sh"  
+  - "./.travis/setup_${TRAVIS_CPU_ARCH}_env.sh"  
 
 script:
-  - "./.travis/build_${TRAVIS_OS_NAME}.sh"
+  - "./.travis/build_${TRAVIS_CPU_ARCH}.sh"
