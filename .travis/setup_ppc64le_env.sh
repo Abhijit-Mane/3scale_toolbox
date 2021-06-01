@@ -7,8 +7,10 @@ sudo apt-get -y install build-essential gem make cmake ruby-dev
 #sudo apt-get -y install zlib1g zlib1g-dev
 
 # setup bundler
-sudo gem update --system
-sudo gem uninstall bundler
-sudo rm /usr/local/bin/bundle  || true
-sudo rm /usr/local/bin/bundler || true
+#sudo gem update --system
+
 sudo gem install bundler
+echo "Ruby, RubyGems, bundler version"
+sudo ruby --version 
+sudo gem --version
+sudo bundler --version
