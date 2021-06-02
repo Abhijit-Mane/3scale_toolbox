@@ -19,6 +19,6 @@ sudo grep -A 1 "BUNDLED WITH" Gemfile.lock
 
 ###############
 # just 2 lines below are enough & it works
-sudo apt-get -y install build-essential gem make cmake
-sudo gem install bundler -v '2.1.4'
+#sudo apt-get -y install build-essential gem make cmake
+#sudo gem install bundler -v '2.1.4'
 ###############
