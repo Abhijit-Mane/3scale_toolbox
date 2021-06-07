@@ -4,7 +4,6 @@ arch: ppc64le
 os: linux
 
 before_install:
-  - sudo apt-get update
   - "./.travis/setup_${TRAVIS_CPU_ARCH}_env.sh"  
 
 script:
