@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -ev
+set -v
 
-# install needed packages
+# update
 sudo apt-get update
